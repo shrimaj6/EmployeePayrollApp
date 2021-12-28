@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./payroll.css">
+        <title>Employee Payroll App</title>
+    </head>
+    <body>
+        <header class="header-content header">
+            <div class="logo-content">
+                <img src="payroll.jpeg" alt="image" >
+                <div>
+                    <span class="emp-text">Employee</span><br>
+                    <span class="emp-text emp-payroll">Payroll</span><br>
+                </div>
+            </div>
+        </header>
+        <div class="main-contents">
+            <div class="header-content">
+                <div class="emp-detail-text">
+                    Employee Details <div class="emp-count">5</div>
+                </div>
+                <a href="EmployeePayRollApp.html" class="add-button">
+                    <img src="" alt="">
+                    Add User
+                </a>
+            </div>
+            <div class="table-main">
+                <table id="display" class="table">
+                    <tr>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>Department</th>
+                        <th>Salary</th>
+                        <th>Start Date</th>
+                        <th>Action</th>
+                    </tr>
+                    <tr>
+                        <td><img class="profile" src="Ellipse -2.png" alt="">Shrimaj Mehta</td>
+                        <td>Male</td>
+                        <td>
+                            <div class='dept-label'>Engineer</div>
+                            <div class='dept-label'>Development</div>
+                        </td>
+                        <td>500000</td>
+                        <td>24 Sept 2021</td>
+                        <td>
+                            <img id="1" onclick="remove(this)" src="delete1.jpeg" alt="delete">
+                            <img id="1" onclick="update(this)" src="update1.jpeg" alt="update"> 
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><img class="profile" src="Ellipse -3.png" alt="">Varun K</td>
+                        <td>Male</td>
+                        <td>
+                            <div class='dept-label'>Accountant</div>
+                            <div class='dept-label'>Tax</div>
+                        </td>
+                        <td>150000</td>
+                        <td>21 Sept 2020</td>
+                        <td>
+                            <img id="1" onclick="remove(this)" src="delete1.jpeg" alt="delete">
+                            <img id="1" onclick="update(this)" src="update1.jpeg" alt="update"> 
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><img class="profile" src="Ellipse -4.png" alt="">Sumit R</td>
+                        <td>Male</td>
+                        <td>
+                            <div class='dept-label'>Engineer</div>
+                            <div class='dept-label'>Backend</div>
+                        </td>
+                        <td>250000</td>
+                        <td>21 Dec 2021</td>
+                        <td>
+                            <img id="1" onclick="remove(this)" src="delete1.jpeg" alt="delete">
+                            <img id="1" onclick="update(this)" src="update1.jpeg" alt="update"> 
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><img class="profile" src="Ellipse -5.png" alt="">Nazeela K</td>
+                        <td>Female</td>
+                        <td>
+                            <div class='dept-label'>Engineer</div>
+                            <div class='dept-label'>FrontEnd</div>
+                        </td>
+                        <td>250000</td>
+                        <td>15 Sept 2021</td>
+                        <td>
+                            <img id="1" onclick="remove(this)" src="delete1.jpeg" alt="delete">
+                            <img id="1" onclick="update(this)" src="update1.jpeg" alt="update"> 
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><img class="profile" src="Ellipse -7.png" alt="">Deepesh C</td>
+                        <td>Male</td>
+                        <td>
+                            <div class='dept-label'>Engineer</div>
+                            <div class='dept-label'>FullStack</div>
+                        </td>
+                        <td>450000</td>
+                        <td> 18 Sept 2021</td>
+                        <td>
+                            <img id="1" onclick="remove(this)" src="delete1.jpeg" alt="delete">
+                            <img id="1" onclick="update(this)" src="update1.jpeg" alt="update"> 
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
